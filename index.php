@@ -33,7 +33,7 @@
     <div class="row">
         <div class="col mt-05">
         <?php
-        include("config.php"); # Conexão BD
+        include("config.php"); # referencia conexão BD
         switch(@$_REQUEST['page']){
             case "novo":
                 include("novoUsuario.php");
@@ -44,8 +44,11 @@
             case "salvar":
                 include("salvarUsuario.php");
                 break;
-            default:
-                print"<h1>Bem vindo!</h1>";
+            case "editar":
+                include("editarUsuario.php");
+                break;
+            // default:
+            //     print"<h1>Bem vindo!</h1>";
             }
         ?>
 

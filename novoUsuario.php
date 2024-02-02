@@ -10,6 +10,10 @@
         <input type="email" name="email" class="form-control">
     </div>
     <div class="mb-3">
+        <label>Telefone</label>
+        <input type="tel" name="telefone" class="form-control">
+    </div>
+    <div class="mb-3">
         <label>Senha</label>
         <input type="password" name="senha" class="form-control">
     </div>
