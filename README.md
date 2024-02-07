@@ -1,4 +1,4 @@
-# Crud feito com PHP puro, MySql (phpmyadmin), Bootstrap, HTML e CSS.
+# Crud w/ PHP
 ##### Partindo dos meus estudos iniciais com PHP, fiz esse CRUD simples com fácil navegação pela página toda, utilizando banco de dados (MySQL) e estilizado com Bootstrap, HTML e CSS.
 
 ## Tecnologias:
