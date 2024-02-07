@@ -6,10 +6,10 @@
     <title>Cadastro</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="bg-dark text-light">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Cadastro</a>
+        <a class="navbar-brand">MyPhpCRUD</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,6 +23,9 @@
             </li>
             <li class="nav-item">
             <a class="nav-link" href="?page=listar">Listar Usuários</a>
+            </li>
+            <li>
+            <a class="nav-link" href="#">Contato</a>
             </li>
         </ul>
         </div>
@@ -47,16 +50,14 @@
             case "editar":
                 include("editarUsuario.php");
                 break;
-            // default:
-            //     print"<h1>Bem vindo!</h1>";
+            default:
+                include __DIR__.'/includeHTML/home.html';
             }
         ?>
 
         </div>
     </div>
 </div>
-
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-
