@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<body>
+
+<header class="cabecalho">
+       <style>
+        @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            font-family: "Comfortaa", sans-serif;
+        }
+
+        .cabecalho {
+            padding: 32px;
+        }
+
+        .principal-box{
+            height: 500px;
+            display: flex;
+        }
+            
+        #imagem-capa{
+            /* background-image: url("https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+            background-image: url("https://images.pexels.com/photos/6963740/pexels-photo-6963740.png");
+            border: 3px solid none;
+            border-radius: 18px 2px 18px 2px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 60%;
+        }
+            
+        .principal-texto{
+            background-color: rgba(9, 82, 100, 0.9);
+            color: #fff;
+            font-size: 36px;
+            margin-top: 24%;
+            width: 70%;
+            padding: 35px;
+            height: 220px;
+            margin-left: 90%;
+            }
+            
+        .conteudo-box{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            }
+            
+        .secundario-box{
+            margin-top: 5%;
+            text-align: -webkit-center;
+        }
+            
+        /* Estilos do button */
+            
+        button {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+            
+        #create, #read, #update, #delete{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            font-weight: bold;
+            color: rgb(9, 82, 100);
+            border: 1px solid ;
+            padding: 30px;
+            border-radius: 10px;
+        }
+            
+        p{
+            word-wrap: break-word;
+            margin-top: 12px;
+            color: white;
+        }
+
+        #a-princ{
+            text-decoration: none;
+            border: 2px solid none;
+            border-radius: 12px 0px 12px 0px;
+            background: rgb(9, 82, 100, 0.9);
+            color: white;
+
+            font-size: 32px;
+
+            padding: 16px;
+
+            /* Adicionando animação */
+            -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 1.2s infinite;
+        }
+
+
+        @keyframes pulse {
+            0% {
+                -webkit-transform: scale(0.95);
+                transform: scale(0.95);
+            }
+            50% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            100% {
+                -webkit-transform: scale(0.95);
+                transform: scale(0.95);
+            }
+        }
+
+        
+        .btn-princ{
+            display: flex;
+            justify-content: center;
+            padding: 64px 0 20px 0;
+
+
+            
+        }
+
+
+        footer{
+            padding: 50px 0 20px 0;
+            font-weight: bold;
+            bottom: 0;
+            text-align: center;
+            position: relative;
+        }
+       </style>
+</header>
+
+<main class="conteudo">
+       <section class="principal-box">
+              <div id="imagem-capa">
+                     <p class="principal-texto">Plataforma de cadastro (CRUD) com PHP, Bootstrap e MySQL.</p>
+              </div>
+       </section>
+
+       <section class="secundario-box">
+              <div class="conteudo-box">
+                     <div class="box" id="create">
+                            <h3>Create</h3>
+                            <p>Criação de registro do usuário numa plataforma ou até mesmo ao desenvolvimento de um novo post dentro de um blog.</p>
+                     </div>
+
+                     <div class="box" id="read">
+                            <h3>Read</h3>
+                            <p>É o ato de consultar os dados em um website.</p>
+                     </div>
+
+                     <div class="box" id="update">
+                            <h3>Update</h3>
+                            <p>O conceito de update é aplicado quando você, que é dono dos dados ou tem permissão para editá-los, atualiza as informações que julgar necessárias.</p>
+                     </div>
+                     <div class="box" id="delete">
+                            <h3>Delete</h3>
+                            <p>Trata-se de uma ação de remoção de dados a partir do operador do sistema.</p>
+                     </div>
+              </div>
+              
+            </section>
+              
+            <div class="btn-princ">
+                  <a id="a-princ" href="?page=novo">CLIQUE E CONHEÇA!</a>
+            </div>
+
+</main>
+</body>
+
+
+<footer class="rodape">
+       <p>Desenvolvido por @BenicioDev ☦︎</p>
+</footer>
