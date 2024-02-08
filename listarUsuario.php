@@ -1,4 +1,5 @@
-<h1>Listar Usuários</h1>
+<h1 class="d-flex justify-content-center m-3">Listar Usuários</h1>
+
 <?php
 $sql = "SELECT * FROM usuarios";
 
@@ -38,8 +39,6 @@ if ($qtd > 0) {
 
 } else {
     print "<p class='alert alert-danger'> Não há dados salvos aqui. Aperte no botão e cadastre o primeiro usuário.</p>";
-
-    echo "<button onclick=\"location.href='?page=novo';\" class='btn btn-primary'> Cadastrar Usuário </button>";
+    print "<button onclick=\"location.href='?page=novo';\" class='btn btn-primary'> Cadastrar Usuário </button>";
 }
 ?>
-
