@@ -1,12 +1,8 @@
 <?php
-    // define("HOST","localhost");
-    // define("USER","root");
-    // define("PASS","");
-    // define("BASE","cadastro");   
 
     if (!defined('HOST')) define("HOST","localhost");
     if (!defined('USER')) define("USER","root");
-    if (!defined('PASS')) define("PASS","");
+    if (!defined('PASS')) define("PASS","1335400");
     if (!defined('BASE')) define("BASE","cadastro");
 
 
