@@ -1,4 +1,5 @@
-# Crud PHP
+
+# Crud PHP/Fork feito por Italo Gabriel
 
 ### Crud feito em PHP com conexão com banco de dados local e interface feita com Bootstrap.
 
