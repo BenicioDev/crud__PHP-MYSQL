@@ -1,6 +1,8 @@
 
 # Crud PHP
 
+## Projeto feito em parceria com Italo Gabriel (Front-End)
+
 ### Crud feito em PHP com conexão com banco de dados local e interface feita com Bootstrap.
 
 <br>
