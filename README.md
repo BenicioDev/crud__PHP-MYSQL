@@ -5,7 +5,8 @@
 
 <br>
 
-#### Projeto feito em parceria com Italo Gabriel (Front-End)
+### Projeto feito em parceria com Italo Gabriel (Front-End) || @italogabl00
+
 <br>
 <br>
 
