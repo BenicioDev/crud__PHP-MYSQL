@@ -1,13 +1,16 @@
 
-# Crud PHP
+# Crud PHP || @beniciodev
 
-## Projeto feito em parceria com Italo Gabriel (Front-End)
-
-### Crud feito em PHP com conexão com banco de dados local e interface feita com Bootstrap.
+[VÍDEO DO PROJETO](https://www.linkedin.com/posts/gabriel-ben%C3%ADcio-09a924179_php-desenvolvimentoweb-programaaexaetophp-activity-7161193570991800320-7gVq?utm_source=share&utm_medium=member_android)
 
 <br>
 
+#### Projeto feito em parceria com Italo Gabriel (Front-End)
+<br>
+<br>
+
 ### Esse projeto marca o meu primeiro contato com a linguagem PHP e seus conceitos.
+### Crud feito em PHP com conexão com banco de dados local e interface feita com Bootstrap.
 
 <br>
 <hr>
